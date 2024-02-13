@@ -4,9 +4,9 @@
 
 ### Project Description
 
-- Web site created in Django with 2 pages (home page, about page) that utilizes views/urls/templates
+- Web site created in Django that utilizes views, urls, and templates
 - Uses ancestor template to contain navigation elements
-- Configured to use TailwindCSS/Flowbite
+- Implements TailwindCSS/Flowbite styling
 
 ### Author: Rhett Chase
 
@@ -32,7 +32,10 @@
 
 #### How to initialize/run your application (where applicable)
 
-- N/A
+- Clone repo
+- Install dependencies (see above)
+- See the page in browser by running `python manage.py runserver`
+- Open the page via the local server address specified in the terminal
 
 #### How to use your library (where applicable)
 
@@ -40,4 +43,4 @@
 
 #### Tests
 
-- N/A
+- `python manage.py test`

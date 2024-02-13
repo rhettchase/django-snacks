@@ -2,7 +2,7 @@
 
 ## Project: Django Snacks
 
-## Project Description
+### Project Description
 
 - Web site created in Django with 2 pages (home page, about page) that utilizes views/urls/templates
 - Uses ancestor template to contain navigation elements

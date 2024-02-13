@@ -21,10 +21,7 @@
 ### Setup
 
 - `pip install -r requirements.txt`
-
-Alternatively:
-
-- `pip install django`
+- `npm install`
 
 #### `.env` requirements (where applicable)
 

@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Hello World</h1>
+    <h1 class="text-3xl text-green-800">Hello World</h1>
+
+    {% for snack in snacks %}
+      <h2>{{ snack.title }}</h2>
+    {% endfor %}
 {% endblock content %}
